@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Realtime Visualization</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="logo">
+            <img src="Shape.svg" alt="">
+        </div>
+    </div>
+
+ <div class="main">
+    <h1>JavaScript Captains</h1>
+    <div class="container">
+        <div class="chart"></div>
+        <div class="controls">
+            <div class="vote">
+                <h3>Cast Here!</h3>
+                 <ul>
+                    <li>
+                        <input type="radio" id="w-option" name="vote" value="WH">
+                        <label for="w-option">Wolfram</label>
+                        <div class="check"></div>
+                    </li>
+                    
+                    <li>
+                        <input type="radio" id="k-option" name="vote" value="KR">
+                        <label for="k-option">Kashe</label>
+                        <div class="check"><div class="inside"></div></div>
+                    </li>
+
+                      <li>
+                        <input type="radio" id="a-option" name="vote" value="AH">
+                        <label for="a-option">Alex</label>
+                        <div class="check"><div class="inside"></div></div>
+                    </li>
+                    
+                    <li>
+                        <input type="radio" id="j-option" name="vote" value="JM">
+                        <label for="j-option">Juliet</label>
+                        <div class="check"><div class="inside"></div></div>
+                    </li>
+
+                    <li>
+                        <input type="radio" id="f-option" name="vote" value="AF">
+                        <label for="f-option">Amy</label>
+                        <div class="check"><div class="inside"></div></div>
+                    </li>
+                  
+                </ul>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ 
+
+ 
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/deepstream.io-client-js/2.1.1/deepstream.js"></script>
+  <script src="//d3js.org/d3.v4.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
